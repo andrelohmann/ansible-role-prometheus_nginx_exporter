@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  role_name: andrelohmann.prometheus_nginx_exporter
+  role_name: prometheus_nginx_exporter
   author: andrelohmann
   description: install nginx-prometheus-exporter
   company: smartformer
