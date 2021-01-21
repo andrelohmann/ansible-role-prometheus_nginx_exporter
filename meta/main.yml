@@ -1,0 +1,24 @@
+---
+galaxy_info:
+  role_name: andrelohmann.prometheus_nginx_exporter
+  author: andrelohmann
+  description: install nginx-prometheus-exporter
+  company: smartformer
+
+  license: MIT
+
+  min_ansible_version: 2.7
+
+  platforms:
+    - name: Ubuntu
+      versions:
+      - bionic
+      - focal
+
+  galaxy_tags:
+  - prometheus
+  - nginx_exporter
+  - nginx-prometheus-exporter
+
+dependencies: []
+...

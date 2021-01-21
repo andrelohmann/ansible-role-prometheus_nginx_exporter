@@ -1,0 +1,7 @@
+---
+
+prometheus_nginx_exporter_scrape_uri: http://localhost:8080/stub_status
+prometheus_nginx_exporter_listen_ip: 127.0.0.1
+prometheus_nginx_exporter_listen_port: 9113
+
+...
