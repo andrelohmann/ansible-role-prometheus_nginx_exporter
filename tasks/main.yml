@@ -37,7 +37,7 @@
 
 - name: download nginx-prometheus-exporter
   get_url:
-    url: https://github.com/nginxinc/nginx-prometheus-exporter/releases/download/v{{ nginx_exporter_version.stdout }}/nginx-prometheus-exporter-{{ nginx_exporter_version.stdout }}-linux-amd64.tar.gz
+    url: https://github.com/nginxinc/nginx-prometheus-exporter/releases/download/v{{ nginx_exporter_version.stdout }}/nginx-prometheus-exporter_{{ nginx_exporter_version.stdout }}_linux_amd64.tar.gz
     owner: root
     group: root
     dest: /root/nginx-prometheus-exporter-{{ nginx_exporter_version.stdout }}-linux-amd64.tar.gz
